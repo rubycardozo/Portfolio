@@ -57,7 +57,11 @@ $(document).ready(function () {
    $('#three').hover(
         function () {
             $('#imgy').attr('src','images/portfolio.png')
-            });         
+            });  
+    $('#four').hover(
+        function () {
+            $('#imgy').attr('src','images/instagram.png')
+            });                    
 });
 
 // JavaScript code to toggle mobile menu
