@@ -46,21 +46,26 @@ $(document).ready(function(){
 
 $(document).ready(function () {
     let imgy = document.getElementById('imgy')
+    let p = document.getElementById('p')
     $('#one').hover(
         function () {
             $('#imgy').attr('src','images/noble.jpeg')
+            p.innerHTML = 'Web Development • Web Design'
             });
   $('#two').hover(
         function () {
             $('#imgy').attr('src','images/Xtrafit.jpeg')
+            p.innerHTML = 'UX/UI Design • UX Research'
             });
    $('#three').hover(
         function () {
             $('#imgy').attr('src','images/portfolio.png')
+            p.innerHTML = 'Web Development • Web Design'
             });  
     $('#four').hover(
         function () {
             $('#imgy').attr('src','images/instagram.png')
+            p.innerHTML = 'Illustration • Digital Art'
             });                    
 });
 
