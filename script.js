@@ -64,9 +64,14 @@ $(document).ready(function () {
             });  
     $('#four').hover(
         function () {
+            $('#imgy').attr('src','images/weathernow.png')
+            p.innerHTML = 'Illustration • Digital Art'
+            });   
+    $('#five').hover(
+        function () {
             $('#imgy').attr('src','images/instagram.png')
             p.innerHTML = 'Illustration • Digital Art'
-            });                    
+            });                           
 });
 
 // JavaScript code to toggle mobile menu
