@@ -1,92 +1,100 @@
-
-body{
+body {
     font-family: 'Karla', sans-serif;
     margin: 0;
     background-color: #120309;
-    color:white;
+    color: white;
     font-weight: 200;
 }
 
-#home{
+#home {
     top: 0;
     align-items: center;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
-#ruby{
-    margin-top:-35vh;
+
+#ruby {
+    margin-top: -35vh;
     font-size: 150px;
     text-align: center;
     margin-bottom: 1vh;
     font-family: 'Antonio', sans-serif;
     letter-spacing: 1vi;
-    color:#6FFFDB
+    color: #6FFFDB
 }
-.bold{
+
+.bold {
     font-weight: 700;
 }
-.myfont{
+
+.myfont {
     font-family: 'Karla', sans-serif !important;
 }
-.teal{
-    color:#6FFFDB;
+
+.teal {
+    color: #6FFFDB;
     font-family: 'Karla', sans-serif;
 }
 
-.white{
-    color:white;
+.white {
+    color: white;
 
 }
-.h2{
+
+.h2 {
     font-family: 'Antonio', sans-serif;
     font-size: 5vw;
     border-bottom: 1px solid white;
     margin-bottom: 3vh;
 }
 
-.animate-charcter
-{
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -200deg,
-    #778eff 0%,
-    #6FFFDB 29%,
-    #35cea7 67%,
-    #778eff 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-200deg,
+            #778eff 0%,
+            #6FFFDB 29%,
+            #35cea7 67%,
+            #778eff 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
     font-size: 190px;
 }
 
 @keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
+    to {
+        background-position: 200% center;
+    }
 }
-#subtitle{
-    opacity:0;
-    transition:  opacity ease-in 800ms;
+
+#subtitle {
+    opacity: 0;
+    transition: opacity ease-in 800ms;
     letter-spacing: 2px;
 }
-#line{
-    height:1px;
+
+#line {
+    height: 1px;
     background-color: white;
     width: 0;
     transition: width 800ms ease-in-out
 }
-#one,#two, #three, #four, #five{
+
+#one,
+#two,
+#three,
+#four,
+#five {
     font-size: 3vw;
     font-weight: 200;
-    color:white;
+    color: white;
     border: 1px solid white;
     opacity: 1;
     margin-left: -50vw;
@@ -95,43 +103,55 @@ body{
     border-radius: 5px;
     width: 30vw
 }
-#one:hover,#two:hover, #three:hover, #four:hover, #five:hover{
+
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover,
+#six:hover {
     background-color: rgb(240, 240, 240);
     color: black;
 }
 
-.container{
-  
+.container {
+
     padding-left: 5vw;
     padding-right: 5vw;
 }
-.mylist{
+
+.mylist {
     list-style: none;
     margin: 0;
     padding: 0;
 
 }
-#work{
+
+#work {
     margin-top: 3vh;
-    display:flex;
+    display: flex;
     align-items: center;
 }
-#image{
+
+#image {
     position: relative;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: -50vw;
     opacity: 1;
     overflow: hidden;
     margin-top: 2vh;
-    width: 40vw; /* Adjust the width as needed */
+    width: 40vw;
+    /* Adjust the width as needed */
     height: 45vh;
     border-radius: 15px;
 
 }
+
 a {
     text-decoration: none;
 }
-#imgy{
+
+#imgy {
     width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -153,44 +173,54 @@ a {
     border-radius: 15px;
     filter: brightness(40%);
     z-index: 2;
-   
+
 }
-.worktitle{
+
+.worktitle {
     font-family: 'Antonio', sans-serif;
     font-size: 5vw;
     padding-top: 0 !important;
     margin-top: 0 !important;
     margin-bottom: 10px;
-    
+
 }
-#line2{
+
+#line2 {
     width: 0;
     height: 1px;
     background-color: white;
     transition: width 800ms ease-in;
 
 }
-#workhead{
+
+#workhead {
     opacity: 0;
-    transition:  opacity 800ms ease-in-out;
+    transition: opacity 800ms ease-in-out;
     padding-top: 0 !important;
     margin-top: 0 !important;
 }
-@media (min-width: 768px){
-    .projects{
+
+@media (min-width: 768px) {
+    .projects {
         padding-left: 5vi;
-        list-style:none;
+        list-style: none;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         margin-top: 0;
         padding-top: 0;
-    
+
     }
-    #one,#two, #three, #four, #five{
+
+    #one,
+    #two,
+    #three,
+    #four,
+    #five,
+    #six {
         font-size: 2vw;
         font-weight: 200;
-        color:white;
+        color: white;
         border: 1px solid white;
         opacity: 1;
         margin-left: -50vw;
@@ -200,38 +230,47 @@ a {
         width: 30vw
     }
 }
-@media(max-width:767px){
-    #work{
+
+@media(max-width:767px) {
+    #work {
         margin-top: 3vh;
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center !important;
     }
-    .projects{
-        list-style:none;
+
+    .projects {
+        list-style: none;
         display: flex;
         flex-direction: column;
         margin-top: 0;
         padding-top: 0;
         text-align: center !important;
         margin-left: 0;
-    
+
     }
-    #ruby{
-        margin-top:-35vh;
+
+    #ruby {
+        margin-top: -35vh;
         padding-top: 3vh;
         font-size: 15vw;
         text-align: center;
         margin-bottom: 1vh;
         font-family: 'Antonio', sans-serif;
         letter-spacing: 1vi;
-        color:#6FFFDB
+        color: #6FFFDB
     }
-    #one,#two, #three, #four, #five{
+
+    #one,
+    #two,
+    #three,
+    #four,
+    #five,
+    #six {
         font-size: 4vw;
         font-weight: 200;
-        color:white;
+        color: white;
         border: 1px solid white;
         opacity: 1;
         margin-left: -180vw;
@@ -240,12 +279,14 @@ a {
         border-radius: 5px;
         width: 60vw
     }
-    #workhead{
+
+    #workhead {
         opacity: 0;
-        transition:  opacity 800ms ease-in-out;
-    
+        transition: opacity 800ms ease-in-out;
+
     }
-    .worktitle{
+
+    .worktitle {
         font-family: 'Antonio', sans-serif;
         font-size: 8vw;
         padding-top: 0 !important;
@@ -253,29 +294,32 @@ a {
         margin-bottom: 10px;
         text-align: center !important;
     }
-    #image{
-    position: relative;
-    margin-left:0;
-    margin-right: -200vw;
-    opacity: 1;
-    overflow: hidden;
-    width: 70vw;
-    margin-top: 2vh;
+
+    #image {
+        position: relative;
+        margin-left: 0;
+        margin-right: -200vw;
+        opacity: 1;
+        overflow: hidden;
+        width: 70vw;
+        margin-top: 2vh;
+
+    }
 
 }
 
-}
-@media (min-width:1023px){
-    .project-table{
+@media (min-width:1023px) {
+    .project-table {
         padding: 10%;
         height: 20vh;
         margin-top: 5vh;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(4,1fr);
-        gap:2vw;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 2vw;
     }
-    .box{
+
+    .box {
         font-size: 20px;
         grid-column-start: 1;
         grid-column-end: span 2;
@@ -283,31 +327,36 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center; /* Vertically centers the text */
-        line-height: 1; /* Ensures consistent vertical centering */
+        align-items: center;
+        /* Vertically centers the text */
+        line-height: 1;
+        /* Ensures consistent vertical centering */
         padding: 5px 0;
-    
+
     }
-    .h1{
+
+    .h1 {
         font-size: 10vh;
         font-family: 'Antonio', sans-serif !important;
     }
 }
 
-@media (max-width:1023px){
-    .h1{
+@media (max-width:1023px) {
+    .h1 {
         font-size: 10vh;
         font-family: 'Antonio', sans-serif !important;
     }
-    .project-table{
+
+    .project-table {
         height: 20vh;
         margin-top: 5vh;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(4,1fr);
-        gap:2vw;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 2vw;
     }
-    .box{
+
+    .box {
         font-size: 16px;
         grid-column-start: 1;
         grid-column-end: span 2;
@@ -315,47 +364,53 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center; /* Vertically centers the text */
-        line-height: 1; /* Ensures consistent vertical centering */
+        align-items: center;
+        /* Vertically centers the text */
+        line-height: 1;
+        /* Ensures consistent vertical centering */
         padding: 5px 0;
-    
+
     }
 }
-.vid{
+
+.vid {
     height: 60vh;
 }
+
 .samples {
     width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  
+}
+
 .image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-.h3{
+.h3 {
     font-family: 'Antonio', sans-serif;
     font-size: 50px;
 
     margin: 20px;
     margin-bottom: 10px;
-    
+
 }
-.h4{
+
+.h4 {
     font-family: 'Antonio', sans-serif;
     font-size: 50px;
     margin-bottom: 10px;
-    
+
 }
-.h5{
+
+.h5 {
     font-family: 'Karla', sans-serif;
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 10px;
-    
+
 }
